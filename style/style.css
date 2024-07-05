@@ -1,0 +1,75 @@
+main {
+  background-image: linear-gradient(to right, #9b2824a1, #9b282493),
+    url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9b2824;
+}
+main h1 {
+  font-size: 58px;
+}
+.sidebar {
+  width: 250px;
+  background-color: black;
+}
+.links a {
+  color: white;
+  transition: all 0.5s;
+}
+.links a:hover {
+  color: red;
+}
+.close {
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+.close:hover {
+  color: red;
+}
+.open {
+  cursor: pointer;
+}
+.tefa {
+  left: -250px;
+  z-index: 10;
+}
+
+.singer {
+  background-color: #e68285;
+  cursor: pointer;
+}
+.panel{
+  background-color: #cccccc;
+  display: none;
+}
+
+
+
+.event {
+  min-height: 400px;
+  background-image: linear-gradient(to right, #9b2824a1, #9b282493),
+    url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9b2824;
+}
+
+.cell{
+  width: 300px;
+  height: 150px;
+}
+
+.icons i{
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  color: rgb(104, 104, 104);
+  transition: all 0.5s;
+}
+
+.icons i:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
